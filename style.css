@@ -21,7 +21,6 @@ form {
     display: block;
     margin: auto;
     max-width: 500px;
-    min-width: 350px;
 }
 span {
     text-align: center;
@@ -46,16 +45,16 @@ label.links a:hover {
     text-decoration: underline;
 }
 label#google{
-    border: 2px solid rgba(3, 3, 3, 0.685);
+    border: 2px solid var(--cor1bla);
 }
 label#google a{
-    color: rgba(3, 3, 3, 0.685);
+    color: var(--cor1bla);
 }
 label#face{
-    border: 2px solid #0000ffd2; 
+    border: 2px solid var(--cor0blu); 
 }
 label#face a{
-    color: rgba(0, 0, 255, 0.822);
+    color: var(--cor0blu);
 }
 label#apple{
     border: 2px solid black
@@ -63,13 +62,12 @@ label#apple{
 label#apple a{
     color: black;
 }
-  
 label.ense {
     display: block;
     width: 100%;
     padding: 10px 0px;
     font-size: 1.1em;
-    color: #000000b9;
+    color: var(--cor1bla);
 }
 input {
     margin: auto;
@@ -77,16 +75,15 @@ input {
     border-radius: 5px;
     padding: 7px;
     font-size: 1.1em;
-    border: 2px solid rgba(0, 0, 0, 0.473);
+    border: 2px solid var(--cor1bla);
     outline: none;
 }
-input:hover {
-    background-color: rgba(0, 0, 255, 0.135);
-    border: 2px solid rgba(0, 0, 255, 0.822);
+input:hover{
+    border: 2px solid var(--cor0blu);
 }
 button {
     color: white;
-    background-color: rgba(0, 0, 255, 0.822);
+    background-color: var(--cor0blu);
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.1em;
