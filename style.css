@@ -1,0 +1,102 @@
+*{
+  padding: 0%;
+    margin: 0%;  
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    font-style: normal;
+    margin-top: 20px;
+}
+:root{
+    --cor0blu: #0000ffd2;
+    --cor1bla: #000000b9;
+}
+form p {
+    text-align: justify;
+    margin-bottom: 0%;
+}
+form {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    min-width: 350px;
+}
+span {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div > hr {
+    display: inline-block;
+    width: 44.2%;
+}
+label.links {
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+label.links a:hover {
+    text-decoration: underline;
+}
+label#google{
+    border: 2px solid rgba(3, 3, 3, 0.685);
+}
+label#google a{
+    color: rgba(3, 3, 3, 0.685);
+}
+label#face{
+    border: 2px solid #0000ffd2; 
+}
+label#face a{
+    color: rgba(0, 0, 255, 0.822);
+}
+label#apple{
+    border: 2px solid black
+}
+label#apple a{
+    color: black;
+}
+  
+label.ense {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1.1em;
+    color: #000000b9;
+}
+input {
+    margin: auto;
+    width: 96%;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.1em;
+    border: 2px solid rgba(0, 0, 0, 0.473);
+    outline: none;
+}
+input:hover {
+    background-color: rgba(0, 0, 255, 0.135);
+    border: 2px solid rgba(0, 0, 255, 0.822);
+}
+button {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.822);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+form a {
+    text-decoration: none;
+}
