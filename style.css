@@ -8,7 +8,7 @@ body {
     margin-top: 20px;
 }
 :root{
-    --cor0blu: #0000ffd2;
+    --cor0blu: #0000ffd2; /*variáveis para as CSS*/
     --cor1bla: #000000b9;
 }
 form p {
