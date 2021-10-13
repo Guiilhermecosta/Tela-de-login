@@ -7,6 +7,9 @@ body {
     font-style: normal;
     margin-top: 20px;
 }
+section.conteiner{
+    margin: auto;
+}
 :root{
     --cor0blu: #0000ffd2; /*variáveis para as CSS*/
     --cor1bla: #000000b9;
@@ -22,14 +25,16 @@ form {
     margin: auto;
     max-width: 500px;
 }
-span {
+form span {
+    margin: auto;
+    display: block;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-bottom: 1px;
 }
-div > hr {
-    display: inline-block;
-    width: 44.2%;
+hr{
+    height: 1.5px;
+    background-color:rgba(0, 0, 0, 0.425);
+    border: none;
 }
 label.links {
     display: block;
@@ -69,11 +74,13 @@ label.ense {
     font-size: 1.1em;
     color: var(--cor1bla);
 }
-input {
+input.inpute {
+    display: block;
     margin: auto;
-    width: 96%;
+    width: 100%;
+    text-indent: 10px;
     border-radius: 5px;
-    padding: 7px;
+    padding: 7px 0px;
     font-size: 1.1em;
     border: 2px solid var(--cor1bla);
     outline: none;
@@ -85,7 +92,7 @@ button {
     color: white;
     background-color: var(--cor0blu);
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 1.1em;
     display: block;
     width: 100%;
